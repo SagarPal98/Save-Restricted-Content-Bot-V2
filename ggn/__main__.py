@@ -25,9 +25,5 @@ if __name__ == "__main__":
             load_plugins(plugin_name.replace(".py", ""))
 
     logger.info("Bot Started :)")
-    print("
-()   ()
- (*_*)
- (/ \)")
     
     bot.run_until_disconnected()
